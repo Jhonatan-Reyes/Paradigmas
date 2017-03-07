@@ -27,6 +27,7 @@ public class AreaCurvas {
 
          paso = scanner.nextInt();
          System.out.println("El area de la funcion es: " + integrar(intervalomenor, intervalomayor, paso));
+         
     }
 
     static double integrar(double intervalomenor, double intervalomayor, int N) {
