@@ -1,6 +1,6 @@
-package taller1;
+package ParadigmasNew;
 import javax.swing.*;
-
+/*
 class Punto {
         public int x;
         public int y;
@@ -29,7 +29,7 @@ class Punto {
     }
 
 
-    public class Programa
+    public class Programa()
     {        
         public static void main(String[] args)
         {
@@ -48,4 +48,4 @@ class Punto {
                 else
                     System.out.println("Punto dentro del círculo");
         }
-    }
+    }/*/
