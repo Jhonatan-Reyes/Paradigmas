@@ -7,11 +7,11 @@ package POO;
 
 public abstract class Forma {
     
-    private int id;
-    private String color;
-    private int coordenadaCentro;
-    private String nombre;
-    private int info;
+    public int id;
+    public String color;
+    public int coordenadaCentro;
+    public String nombre;
+    public int info;
         
     public Forma(){
            
@@ -24,7 +24,7 @@ public abstract class Forma {
         this.nombre= nombre;
     }
     
-    //getters & setters
+    /*//getters & setters
     
     public int getId(){
         return id;
@@ -50,9 +50,20 @@ public abstract class Forma {
         this.coordenadaCentro=coordenadaCentro;
     }
     
-    public abstract String Imprimir();
-    public abstract int Area();
-    public abstract int Perimetro();
+    public int getNombre(){
+        return id;
+    }
     
+    public void setNombre(){
+        this.id=id;
+    }*/
+    
+    abstract public String ImprimirAtributos();
+    abstract public String CambiarColor();
+    abstract public int MoverCentro();
+    abstract public float CalcularArea();
+    abstract public float CalcularPerimetro();
+    abstract public int CambiarTamano();
+    abstract public double area();
     
 }
